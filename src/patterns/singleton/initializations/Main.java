@@ -13,5 +13,9 @@ public class Main {
         // Create an instance of LazyInitializedSingleton
         LazyInitializedSingleton lazySingleton = LazyInitializedSingleton.getInstance();
         System.out.println("Lazy Initialized Singleton Instance: " + lazySingleton);
+
+        // Create an instance of ThreadSafeLazyInitializedSingleton
+        ThreadSafeLazyInitializedSingleton threadSafeLazySingleton = ThreadSafeLazyInitializedSingleton.getInstance();
+        System.out.println("Thread Safe Lazy Initialized Singleton Instance: " + threadSafeLazySingleton);
     }
 }

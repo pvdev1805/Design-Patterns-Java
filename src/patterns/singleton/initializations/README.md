@@ -17,3 +17,7 @@ In this method, the instance is created in a static block. This allows for excep
 ### 2.3/ Lazy Initialization:
 In this method, the instance is created only when it is needed. This can save resources but requires careful handling to ensure thread safety.
 [Lazy Initialization](LazyInitializedSingleton.java)
+
+### 2.4/ Thread-Safe Singleton:
+This method ensures that the singleton instance is created in a thread-safe manner, preventing multiple threads from creating multiple instances. This can be achieved using synchronized methods or blocks.
+[Thread-Safe Singleton](ThreadSafeLazyInitializedSingleton.java)
