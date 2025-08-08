@@ -9,3 +9,7 @@ In this method, the instance of the class is created at the time of class loadin
 
 [Eager Initialization](EagerInitializedSingleton.java)
 
+### 2.2/ Static Block Initialization:
+In this method, the instance is created in a static block. This allows for exception handling during instance creation and is also thread-safe.
+
+[Static Block Initialization](StaticBlockSingleton.java)
