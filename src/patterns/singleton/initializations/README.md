@@ -13,3 +13,7 @@ In this method, the instance of the class is created at the time of class loadin
 In this method, the instance is created in a static block. This allows for exception handling during instance creation and is also thread-safe.
 
 [Static Block Initialization](StaticBlockSingleton.java)
+
+### 2.3/ Lazy Initialization:
+In this method, the instance is created only when it is needed. This can save resources but requires careful handling to ensure thread safety.
+[Lazy Initialization](LazyInitializedSingleton.java)

@@ -9,5 +9,9 @@ public class Main {
         // Create an instance of StaticBlockSingleton
         StaticBlockSingleton staticBlockSingleton = StaticBlockSingleton.getInstance();
         System.out.println("Static Block Singleton Instance: " + staticBlockSingleton);
+
+        // Create an instance of LazyInitializedSingleton
+        LazyInitializedSingleton lazySingleton = LazyInitializedSingleton.getInstance();
+        System.out.println("Lazy Initialized Singleton Instance: " + lazySingleton);
     }
 }
