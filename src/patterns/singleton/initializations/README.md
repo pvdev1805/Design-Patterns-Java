@@ -21,3 +21,7 @@ In this method, the instance is created only when it is needed. This can save re
 ### 2.4/ Thread-Safe Singleton:
 This method ensures that the singleton instance is created in a thread-safe manner, preventing multiple threads from creating multiple instances. This can be achieved using synchronized methods or blocks.
 [Thread-Safe Singleton](ThreadSafeLazyInitializedSingleton.java)
+
+### 2.5/ Double-Checked Locking:
+This method reduces the overhead of acquiring a lock by first checking if the instance is null before synchronizing. This allows for lazy initialization while maintaining thread safety.
+[Double-Checked Locking](DoubleCheckLockingSingleton.java)
