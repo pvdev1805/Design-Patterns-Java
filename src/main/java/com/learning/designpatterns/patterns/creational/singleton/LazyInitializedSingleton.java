@@ -1,4 +1,4 @@
-package patterns.singleton.initializations;
+package com.learning.designpatterns.patterns.creational.singleton;
 
 public class LazyInitializedSingleton {
     // Singleton instance

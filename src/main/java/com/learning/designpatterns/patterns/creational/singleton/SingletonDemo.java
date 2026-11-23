@@ -1,6 +1,6 @@
-package patterns.singleton.initializations;
+package com.learning.designpatterns.patterns.creational.singleton;
 
-public class Main {
+public class SingletonDemo {
     public static void main(String[] args) {
         // Create an instance of EagerInitializedSingleton
         EagerInitializedSingleton eagerSingleton = EagerInitializedSingleton.getInstance();
