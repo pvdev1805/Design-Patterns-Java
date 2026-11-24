@@ -1,6 +1,6 @@
 # Learning Roadmap
 
-Track a topic as complete only after the theory, implementation, practice, tests, and interview review are done.
+42 learning units, not a fixed calendar deadline. Mark a day complete only after meeting the [learning standards](docs/LEARNING_STANDARDS.md).
 
 ## Phase 1 — Object-Oriented Design Foundations
 
@@ -10,7 +10,7 @@ Track a topic as complete only after the theory, implementation, practice, tests
 - [ ] Day 04 — Composition vs Inheritance
 - [ ] Day 05 — Dependencies & Coupling
 - [ ] Day 06 — Cohesion & Responsibilities
-- [ ] Day 07 — OOP Design Practice
+- [ ] Day 07 — Object-Oriented Design Practice
 
 ## Phase 2 — SOLID Principles
 
@@ -24,50 +24,44 @@ Track a topic as complete only after the theory, implementation, practice, tests
 
 ## Phase 3 — GoF Design Patterns
 
-The learning order will mix categories where pedagogically useful.
+- [ ] Day 15 — Strategy
+- [ ] Day 16 — Factory Method
+- [ ] Day 17 — Observer
+- [ ] Day 18 — Builder
+- [ ] Day 19 — Adapter
+- [ ] Day 20 — Decorator
+- [ ] Day 21 — Facade
+- [ ] Day 22 — Template Method
+- [ ] Day 23 — State
+- [ ] Day 24 — Command
+- [ ] Day 25 — Chain of Responsibility
+- [ ] Day 26 — Proxy
+- [ ] Day 27 — Composite
+- [ ] Day 28 — Abstract Factory
+- [ ] Day 29 — Singleton
+- [ ] Day 30 — Prototype
+- [ ] Day 31 — Bridge
+- [ ] Day 32 — Iterator
+- [ ] Day 33 — Mediator
+- [ ] Day 34 — Memento
+- [ ] Day 35 — Flyweight
+- [ ] Day 36 — Visitor
+- [ ] Day 37 — Interpreter
 
-### Creational
-- [ ] Factory Method
-- [ ] Abstract Factory
-- [ ] Builder
-- [ ] Prototype
-- [ ] Singleton
+## Phase 4 — Applied Design & Refactoring
 
-### Structural
-- [ ] Adapter
-- [ ] Bridge
-- [ ] Composite
-- [ ] Decorator
-- [ ] Facade
-- [ ] Flyweight
-- [ ] Proxy
+- [ ] Day 38 — Requirements and Object Modelling
+- [ ] Day 39 — Refactoring a Legacy Application
+- [ ] Day 40 — Combining Patterns
+- [ ] Day 41 — Testing and Evaluating Design Trade-offs
+- [ ] Day 42 — Capstone Design Challenge & Interview Review
 
-### Behavioral
-- [ ] Strategy
-- [ ] Observer
-- [ ] Command
-- [ ] State
-- [ ] Template Method
-- [ ] Iterator
-- [ ] Mediator
-- [ ] Memento
-- [ ] Chain of Responsibility
-- [ ] Visitor
-- [ ] Interpreter
+## Definition of Done
 
-## Phase 4 — Applied Design and Refactoring
-
-- [ ] Refactor a poorly structured Java application
-- [ ] Compare alternative designs and trade-offs
-- [ ] Combine patterns where justified
-- [ ] Practise explaining design decisions in English
-
-## Definition of Done for a Day
-
-- [ ] Theory reviewed, including English definitions
+- [ ] Theory and English terminology reviewed
 - [ ] Java examples compile
-- [ ] Exercises attempted
-- [ ] Relevant automated tests pass
-- [ ] Reference solutions reviewed
-- [ ] Interview Q&A practised
+- [ ] Exercises attempted and solutions reviewed
+- [ ] Applicable tests pass
+- [ ] Interview questions practised
+- [ ] Documentation links checked
 - [ ] Changes committed and reviewed
